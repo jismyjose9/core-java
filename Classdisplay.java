@@ -1,7 +1,7 @@
 package corejava;
 import java.util.Scanner;
 
-public class Classobj13 {
+public class Classdisplay {
 	Scanner obj=new Scanner(System.in);
 	public static void main(String args[])
 	{
