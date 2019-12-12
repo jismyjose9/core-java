@@ -2,14 +2,14 @@ package corejava;
 import java.util.Scanner;
 
 
-public class Classobj12 {
+public class Classdetails {
 	String name;
 	String address;
 	String contactNumber;
 	String email;
 	String prooftype;
 	String proofid;
-	public Classobj12(String name, String address, String contactNumber, String email, String prooftype, String proofid)
+	public Classdetails(String name, String address, String contactNumber, String email, String prooftype, String proofid)
 	{
 		this.name=name;
 		this.address=address;
@@ -54,7 +54,7 @@ public class Classobj12 {
 		System.out.println("Enter proof id");
 		String proofid;
 		proofid=obj.nextLine();
-	Classobj12 obj1=new Classobj12(name,address,contactNumber,email,prooftype,proofid);
+	Classdetails obj1=new Classdetails(name,address,contactNumber,email,prooftype,proofid);
          obj1.Register(name,address,contactNumber,email,prooftype,proofid);
 	obj.close();
 
