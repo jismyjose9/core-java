@@ -1,6 +1,6 @@
 package corejava;
 import java.util.Scanner;
-public class Classobj11 {
+public class Classregister{
 	String name;
 	String address;
 	String contactNumber;
@@ -10,7 +10,7 @@ public class Classobj11 {
 public static void main(String args[])
 {
 	Scanner obj=new Scanner(System.in);
-	Classobj11 ob=new Classobj11();
+	Classregister ob=new Classregister();
 	
 	System.out.println("Enter your name:");
 	ob.name=obj.nextLine();
