@@ -1,6 +1,6 @@
 package corejava;
 import java.util.Scanner;
-public class Classobj131 {
+public class Classgetset {
 	String name;
 	String address;
 	String contactNumber;
