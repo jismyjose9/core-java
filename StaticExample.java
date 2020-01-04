@@ -1,7 +1,7 @@
 package corejava;
 
 public class StaticExample {
-static int count=0;
+static int count=0;//variable is declared as static
 StaticExample()
 {
 	count++;
