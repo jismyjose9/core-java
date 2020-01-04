@@ -7,21 +7,21 @@ class Animal{
 	}
 	
 	}
- class Lion extends Animal
+ class Lion extends Animal//class Lion extends the class Animal
  {
 	 public void animalsound()
 	 {
 		 System.out.println("The Lion Roares"); 
 	 }
  } 
- class Cat extends Animal
+ class Cat extends Animal //class Cat extends the class Animal
  {
 	 public void animalsound()
 	 {
 		 System.out.println("The Cat Mouyaoo"); 
 	 }
  }
- class Dog extends Animal
+ class Dog extends Animal //class Dog extends the class Animal
  {
 	 public void animalsound()
 	 {
