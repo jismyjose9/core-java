@@ -4,9 +4,9 @@ public class StringTokenizerExample {
 	public static void main(String[] args)
 	{
 		String str="I , am , going , to , split , this, string by,space";
-		StringTokenizer st=new StringTokenizer(str);
+		StringTokenizer st=new StringTokenizer(str);//creating the object st
 		System.out.println("split by space");
-		while (st.hasMoreElements())
+		while (st.hasMoreElements())//using the method hasMoreElements()
 	
 	{
 		System.out.println(st.nextElement());
