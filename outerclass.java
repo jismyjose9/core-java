@@ -14,8 +14,8 @@ public class outerclass
 	}
      public static void main(String args[])
      {
-     outerclass obj=new outerclass();
-     outerclass.innerclass ob=obj.new innerclass();
+     outerclass obj=new outerclass();//creating object of outerclass
+     outerclass.innerclass ob=obj.new innerclass();//outerclass object is used for innerclass
      ob.fun();
      
      
