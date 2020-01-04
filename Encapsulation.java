@@ -1,3 +1,4 @@
+//progrm for Encapsulation
 package corejava;
 
 public class Encapsulation 
@@ -8,7 +9,7 @@ public class Encapsulation
 		String email;
 		String prooftype;
 		String proofid;
-		public void setname(String name)
+		public void setname(String name)//set the values using this keyword
 		{
 			this.name=name;
 		}
