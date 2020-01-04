@@ -12,7 +12,7 @@ public static void main(String args[])
 	Scanner obj=new Scanner(System.in);
 	Classregister ob=new Classregister();
 	
-	System.out.println("Enter your name:");
+	System.out.println("Enter your name:");//getting details to the user for registration
 	ob.name=obj.nextLine();
 	System.out.println("Enter your address:");
 	ob.address=obj.nextLine();
