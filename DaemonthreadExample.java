@@ -9,8 +9,8 @@ public class DaemonthreadExample extends Thread
 	}
     public static void main(String args[])
      {
-    	DaemonthreadExample t1=new DaemonthreadExample();
-    	DaemonthreadExample t2=new DaemonthreadExample();
+    	DaemonthreadExample t1=new DaemonthreadExample();//Daemonthread variable created
+    	DaemonthreadExample t2=new DaemonthreadExample();//Daemonthread variable created
     	
     	
     	t1.start();
