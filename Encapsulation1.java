@@ -6,9 +6,9 @@ public class Encapsulation1 {
 	Scanner obj=new Scanner(System.in);
 	public static void main(String args[])
 	{
-		Scanner obj=new Scanner(System.in);
+		Scanner obj=new Scanner(System.in);//creating object
 		
-		System.out.println("Registration");
+		System.out.println("Registration");//getting details to the user for registrartion
 		System.out.println("Enter your name:");
 		String name=obj.nextLine();
 		System.out.println("Enter your address:");
