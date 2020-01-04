@@ -7,7 +7,7 @@ abstract class Anonymousperson {
 		public static void main(String args[])
 		{
 			
-			 Anonymousperson p=new  Anonymousperson()
+			 Anonymousperson p=new  Anonymousperson()//the class is Anonymousperson
 			 {
 				void learn()
 				{
